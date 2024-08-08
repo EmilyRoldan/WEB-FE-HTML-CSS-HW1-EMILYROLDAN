@@ -1,0 +1,79 @@
+body {
+    font-family: cursive;
+}
+
+/* HEADER */
+header {
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+
+}
+
+header section,
+img {
+    display: inline-block;
+}
+
+header img {
+    margin-bottom: 3pc;
+    width: 115px;
+    height: 110px;
+}
+
+header section {
+    width: 85%;
+}
+
+/* MAIN - SECTIONS */
+.add-margin {
+    margin-top: 3pc;
+    margin-bottom: 3pc;
+}
+
+.icon-title-position img,
+h1 {
+    display: inline-block;
+}
+
+.icon-style {
+    width: 45px;
+    height: 30px;
+}
+
+section p{
+    margin: 0px;
+    width: 95%;
+}
+
+/* HEADER, MAIN, FOOTER */
+.black-border {
+    border: 1px black solid;
+}
+
+.add-paddingleft {
+    padding-left: 15px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(147, 228, 210);
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+
+#iconsfooter-position {
+    display: inline;
+}
+
+#footer-text {
+    font-weight: 20;
+    margin: 5px;
+}
+
+footer a {
+    text-decoration: none;
+}
