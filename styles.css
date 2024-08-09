@@ -1,5 +1,7 @@
 body {
     font-family: cursive;
+    width: 80%; /*fixxxxxx*************************************************/
+    height: 100%;
 }
 
 /* HEADER */
@@ -12,7 +14,7 @@ header {
 }
 
 .add-marR {
-    margin-right: 20pc;
+    margin-right: 30pc; /*fixxxxxx*****************************************/
 }
 
 .imgstyle img {
@@ -48,7 +50,7 @@ header {
     width: 95%;
 }
 
-.fontweigth-color li:first-child, li:last-child {
+.fontweigth-color li:first-child, .fontweigth-color li:last-child {
     font-weight: bold;
     color: rgb(21, 109, 88);
 }
@@ -78,7 +80,7 @@ section div, div{
 footer {
     background-color: rgb(110, 197, 178);
     display: block;
-    padding-left: 25pc;
+    padding-left: 30pc; /*fixxxxxx*****************************************/
 }
 
 #footericons-style {
