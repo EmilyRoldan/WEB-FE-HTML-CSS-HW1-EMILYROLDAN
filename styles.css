@@ -1,7 +1,5 @@
 body {
     font-family: cursive;
-    width: 80%; /*fixxxxxx*************************************************/
-    height: 100%;
 }
 
 /* HEADER */
@@ -13,28 +11,57 @@ header {
 
 }
 
-.add-marR {
-    margin-right: 30pc; /*fixxxxxx*****************************************/
-}
-
 .imgstyle img {
-    width: 135px;
+    width: 140px;
     height: 160px;
     border-radius: 15%;
+    margin: 20px 0px;
+}
+
+.left-div,
+.rigth-div {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+.rigth-div {
+    text-align: right;
+}
+.right-div img {
+    display: inline-block;
+}
+
+/* PARA COLOCAR LOS CONTENEDORES UNO AL LADO DE OTRO */
+
+.elements-inline-block div,
+div {
+    display: inline-block;
 }
 
 
-/* PARA COLOCAR LAS COSAS UNA AL LADO DE OTRA */
-
-.elements-inline-block div,div{
-    display: inline-block;
-} 
+/*EDUCATION AND SKILLS */
 
 .add-paddingright {
     padding-right: 2pc;
 }
 
-/* MAIN-SECTIONS */
+.fontweigth-color li:first-child,
+.fontweigth-color li:last-child {
+    font-weight: bold;
+    color: rgb(21, 109, 88);
+}
+
+.stylelist {
+    list-style: none;
+}
+
+section div,
+div {
+    display: block;
+}
+
+
+/* MAIN-SECTION*/
 
 .add-margin {
     margin-bottom: 1.5pc;
@@ -50,28 +77,14 @@ header {
     width: 95%;
 }
 
-.fontweigth-color li:first-child, .fontweigth-color li:last-child {
-    font-weight: bold;
-    color: rgb(21, 109, 88);
-}
-
-.stylelist {
-    list-style: none;
-}
-
-section div, div{
-    display: block;
-}
-
-
 /* HEADER, MAIN, FOOTER */
 
 .black-border {
-    border: 3px black solid;
+    border: 3px rgb(14, 106, 113) solid;
 }
 
 .add-paddingleft {
-    padding-left: 20px;
+    padding-left: 25px;
 }
 
 
@@ -80,7 +93,7 @@ section div, div{
 footer {
     background-color: rgb(110, 197, 178);
     display: block;
-    padding-left: 30pc; /*fixxxxxx*****************************************/
+    text-align: center;
 }
 
 #footericons-style {
