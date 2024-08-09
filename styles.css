@@ -12,23 +12,27 @@ header {
 }
 
 header img {
-    margin-bottom: 3pc;
-    width: 115px;
-    height: 110px;
+    padding-bottom: 1pc;
+    padding-left: 20pc;
+    width: 135px;
+    height: 160px;
+
 }
 
-header section {
-    width: 85%;
-}
 
-.elements-inline-block-header section,img{
+/* PARA COLOCAR LAS COSAS UNA AL LADO DE OTRA */
+
+.elements-inline-block div,div{
     display: inline-block;
+} 
+
+.add-paddingright {
+    padding-right: 2pc;
 }
 
+/* MAIN-SECTIONS */
 
-/* MAIN/SECTIONS */
 .add-margin {
-    margin-top: 1.5pc;
     margin-bottom: 1.5pc;
 }
 
@@ -37,18 +41,18 @@ header section {
     height: 30px;
 }
 
-.styling-paragraph{
+.styling-paragraph {
     margin: 0px;
     width: 95%;
 }
 
-.elements-inline-block img,h1{
-    display: inline-block;
+.fontweigth-color li:first-child, li:last-child {
+    font-weight: bold;
+    color: rgb(21, 109, 88);
 }
 
-/*SECTION EDUCATION */ 
-.elements-inline-block-education div,div {
-    display: inline-block;
+.stylelist {
+    list-style: none;
 }
 
 section div, div{
@@ -56,12 +60,8 @@ section div, div{
 }
 
 
-.fontweigth-color{
-    font-weight: bold;
-    color: rgb(150, 48, 165);
-}
-
 /* HEADER, MAIN, FOOTER */
+
 .black-border {
     border: 1px black solid;
 }
@@ -75,13 +75,17 @@ section div, div{
 
 footer {
     background-color: rgb(110, 197, 178);
-    text-align: center;
-    padding: 10px;
     display: block;
+    padding-left: 25pc;
 }
 
-#iconsfooter-position {
+#footericons-style {
     display: inline;
+    padding: 6pc;
+}
+
+#footericons-style a {
+    text-decoration: none;
 }
 
 #footer-text {
@@ -89,14 +93,7 @@ footer {
     margin: 5px;
 }
 
-footer a {
-    text-decoration: none;
-}
-
+/* PARA LINKS */
 a {
-    color: rgb(38, 201, 171);
-} 
-
-a:visited {
     color: rgb(21, 109, 88);
-  } 
+}
