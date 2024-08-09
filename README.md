@@ -2,7 +2,7 @@
 
 This repository contains my interactive resume. The resume is designed to provide a professional and engaging overview of my personal and professional background.
 
-## What’s Included?
+## What’s included?
 
 - **About 💁:** A brief introduction about myself, highlighting my skills and professional philosophy.
 - **Education 🏫:** Details of academic courses I have completed, including course names and completion dates.

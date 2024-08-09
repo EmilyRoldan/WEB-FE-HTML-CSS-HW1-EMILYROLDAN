@@ -22,7 +22,7 @@ header {
 .left-div,
 .rigth-div {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     width: 49%;
 }
 .rigth-div {
@@ -32,7 +32,7 @@ header {
     display: inline-block;
 }
 
-/* PARA COLOCAR LOS CONTENEDORES UNO AL LADO DE OTRO */
+/* TO PLACE CONTAINERS NEXT TO EACH OTHER */
 
 .elements-inline-block div,
 div {
