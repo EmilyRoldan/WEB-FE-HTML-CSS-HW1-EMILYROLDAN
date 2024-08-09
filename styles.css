@@ -11,12 +11,14 @@ header {
 
 }
 
-header img {
-    padding-bottom: 1pc;
-    padding-left: 20pc;
+.add-marR {
+    margin-right: 20pc;
+}
+
+.imgstyle img {
     width: 135px;
     height: 160px;
-
+    border-radius: 15%;
 }
 
 
@@ -63,7 +65,7 @@ section div, div{
 /* HEADER, MAIN, FOOTER */
 
 .black-border {
-    border: 1px black solid;
+    border: 3px black solid;
 }
 
 .add-paddingleft {
